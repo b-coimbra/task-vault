@@ -63,23 +63,23 @@ task-vault/
 │   │   ├── api/
 │   │   │   └── client.ts      # API para comunicação com backend
 │   │   ├── components/
-│   │   │   ├── ConfirmDialog.tsx
+    │   │   │   ├── ConfirmDialog.tsx
 │   │   │   ├── CreateTaskModal.tsx
 │   │   │   ├── EditTaskModal.tsx
 │   │   │   ├── ProtectedRoute.tsx
 │   │   │   ├── TaskList.tsx
 │   │   │   └── __tests__/
-│   │   │       └── TaskList.test.tsx
+    │   │   │       └── TaskList.test.tsx
 │   │   ├── contexts/
-│   │   │   ├── AuthContext.tsx    # Gerenciamento de estado da autenticação
+    │   │   │   ├── AuthContext.tsx    # Gerenciamento de estado da autenticação
 │   │   │   ├── TaskContext.tsx    # Gerenciamento de estado das tarefas
 │   │   │   └── __tests__/
-│   │   │       └── TaskContext.test.tsx
+    │   │   │       └── TaskContext.test.tsx
 │   │   ├── pages/
-│   │   │   ├── HomePage.tsx       # Página principal de tarefas (listagem)
+    │   │   │   ├── HomePage.tsx       # Página principal de tarefas (listagem)
 │   │   │   └── LoginPage.tsx      # Página de Login/Cadastro
 │   │   ├── styles/
-│   │   │   ├── LoginPage.css
+    │   │   │   ├── LoginPage.css
 │   │   │   └── TasksPage.css
 │   │   ├── App.tsx                # Componente principal com roteamento das páginas
 │   │   ├── main.tsx
@@ -92,19 +92,19 @@ task-vault/
 │   └── jest.config.js             # Configuração de testes do Jest
 │
 ├── server/                    # Back-end
-│   ├── src/
-│   │   ├── middleware/
-│   │   │   └── auth.ts            # Middleware de autenticação JWT
+    │   ├── src/
+    │   │   ├── middleware/
+    │   │   │   └── auth.ts            # Middleware de autenticação JWT
 │   │   ├── routes/
-│   │   │   ├── auth.ts            # Rotas de autenticação (login/cadastro)
+    │   │   │   ├── auth.ts            # Rotas de autenticação (login/cadastro)
 │   │   │   ├── tasks.ts           # Rotas CRUD de tarefas
 │   │   │   └── __tests__/
-│   │   │       └── tasks.test.ts
+    │   │   │       └── tasks.test.ts
 │   │   └── server.ts              # Configuração do servidor Express
 │   ├── prisma/
-│   │   ├── schema.prisma          # Definição do schema do banco de dados
+    │   │   ├── schema.prisma          # Definição do schema do banco de dados
 │   │   └── migrations/            # Migrações do banco de dados
-│   ├── .env                       # Variáveis de ambiente
+    │   ├── .env                       # Variáveis de ambiente
 │   ├── package.json               # Dependências do backend
 │   ├── tsconfig.json              # Configuração do TypeScript
 │   └── jest.config.js             # Configuração de testes Jest
@@ -112,3 +112,10 @@ task-vault/
 ├── .gitignore
 └── README.md
 ```
+
+## Preview
+
+<p align="center">
+  <img src="https://i.imgur.com/whqP3Q5.png">
+</div>
+
