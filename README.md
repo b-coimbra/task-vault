@@ -35,7 +35,7 @@ cd server
 npx prisma migrate dev --name init
 npx prisma generate
 ```
-6. Inicialize o servidor do client/server:
+6. Na pasta raiz, inicialize o servidores do `client` e `server`:
 ```
 npm --prefix ./client run dev 
 npm --prefix ./server run dev
