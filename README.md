@@ -46,7 +46,12 @@ npm --prefix ./server run dev
 1. Abra `http://localhost:3000` no seu navegador
 2. Na página de login, clique em "Cadastrar" para criar uma conta nova
 3. Após o registro/login, você será redirecionado para a página inicial
-4. Use o botão de logout para sair
+3.1 Crie uma nova tarefa clicando no botão "Crie Tarefa" e preencha os dados (Titulo, Descrição, Status e Data de Expiração)
+3.2 Filtre as tarefas existentes por Status
+3.3 Ordene por Data de Criação ou Data de Expiração (em ordem descendente ou ascendente)
+3.4 Clique na tarefa para editar os detalhes
+3.5 Clique no botão "X" e confirme o popup para remover uma tarefa
+4. Use o botão de logout no cabeçalho para sair
 
 ## Testes Unitários
 
