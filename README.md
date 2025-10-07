@@ -1,6 +1,6 @@
 # Task Vault
 
-Uma gerenciador de tarefas construído com React, Node.js, JWT, Prisma e MySQL.
+Um gerenciador de tarefas construído com React, Node.js, JWT, Prisma e MySQL.
 
 # Dependências
 
